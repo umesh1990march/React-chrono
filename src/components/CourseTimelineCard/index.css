@@ -1,0 +1,29 @@
+/* Write your CSS here */
+.heading-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.clock-icon-container {
+  display: flex;
+  align-items: center;
+}
+
+ul {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+  background-color: blue;
+  border-radius: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: white;
+}
